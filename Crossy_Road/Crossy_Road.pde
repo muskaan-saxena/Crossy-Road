@@ -8,5 +8,7 @@ public void setup(){
 public void draw(){
   s.drawObstacles();
   p.drawPlayer();
-
+  p.movePlayer();
+  p.changeDirection(keyCode);
+  
 }
