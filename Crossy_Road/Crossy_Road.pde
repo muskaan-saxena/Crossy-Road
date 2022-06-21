@@ -1,5 +1,5 @@
-Player p;
-Traffic s= new Traffic;
+Player p= new Player ();
+Traffic s= new Traffic();
 
 public void setup(){
   background (8, 252, 34);
@@ -7,8 +7,13 @@ public void setup(){
 }
 public void draw(){
   s.drawObstacles();
+  
+ 
+    s.moveObstacles();
+  
   p.drawPlayer();
   p.movePlayer();
   p.changeDirection(keyCode);
+
   
 }
