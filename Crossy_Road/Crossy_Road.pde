@@ -5,4 +5,7 @@ void setup(){
 }
 void draw(){
   p.drawPlayer();
+  p.movePlayer();
+  p.changeDirection(keyCode);
+  
 }

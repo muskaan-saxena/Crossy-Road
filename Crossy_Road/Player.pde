@@ -10,7 +10,7 @@ public void drawPlayer(){
   fill(255,255,255);
   ellipse(200,1,000,15);
 }
-public void moveplayer(){
+public void movePlayer(){
   if( currentDirection == "UP"){
     y=y-1;}
  }
