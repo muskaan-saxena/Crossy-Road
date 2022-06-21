@@ -15,7 +15,7 @@ public void movePlayer(){
   if( currentDirection == "UP"){
     y=y-1; 
    score = score +1;}
- }
+  }
   public void changeDirection( int keyNum){
       if (keyNum == 38){
         currentDirection = "UP";}
