@@ -1,5 +1,5 @@
 Player p;
-Traffic s= new Traffic ();
+Traffic s= new Traffic;
 
 public void setup(){
   background (8, 252, 34);
