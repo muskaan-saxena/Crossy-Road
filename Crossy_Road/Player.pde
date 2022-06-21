@@ -5,21 +5,15 @@ public class Player {
   int score;
   public Player(){
     x = 200;
-    y = 1000;
-
-}
-
-  public void changeDirection( int keyNum){
-      if (keyNum == 38){
-        currentDirection = "UP";}
-
+    y = 889;
   }
-  public void drawPlayer(){
+
+ public void drawPlayer(){
     fill(255,0,0);
     ellipse(x,y,30,30);
   }
   public void movePlayer(){
-      y=y-2; 
+      y=y-3; 
      score = score +1;
    }
    public void Collision(){
