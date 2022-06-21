@@ -9,16 +9,18 @@ public void setup(){
   size (400,900);
 }
 public void draw(){
-<<<<<<< HEAD
-<<<<<<< HEAD
   s.drawObstacles();
   s.moveObstacles();
-  
- p.drawPlayer();
-=======
-=======
->>>>>>> 44044f53c304b06e8785cc12390f7ad53c54e064
+  p.drawPlayer();
+
   //drawing traffic obstacles
+ 
+  //Player Movement and Player Creation
+  p.drawPlayer();
+  p.movePlayer();
+  p.changeDirection(keyCode);
+ //drawing traffic obstacles
+
   background (0,0,0);
   a.drawObstacles();
   a.moveObstacles();
@@ -32,12 +34,4 @@ public void draw(){
   p.drawPlayer();
   p.movePlayer();
   p.changeDirection(keyCode);
-
->>>>>>> 44044f53c304b06e8785cc12390f7ad53c54e064
-  
-  //p.changeDirection(keyCode);
-}
-
-void keyPressed(){
-  p.movePlayer();
 }

@@ -4,10 +4,9 @@ public class Player {
   String currentDirection;
   int score;
   public Player(){
-<<<<<<< HEAD
     x = 200;
     y = 1000;
-=======
+
     x = 0;
     y = 200;
 }
@@ -23,7 +22,7 @@ public void movePlayer(){
   public void changeDirection( int keyNum){
       if (keyNum == 38){
         currentDirection = "UP";}
->>>>>>> 44044f53c304b06e8785cc12390f7ad53c54e064
+
   }
   public void drawPlayer(){
     background (8, 252, 34);
