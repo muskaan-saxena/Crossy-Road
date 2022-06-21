@@ -1,3 +1,4 @@
+Player p;
 Traffic s= new Traffic ();
 
 public void setup(){
@@ -6,4 +7,6 @@ public void setup(){
 }
 public void draw(){
   s.drawObstacles();
+  p.drawPlayer();
+
 }
