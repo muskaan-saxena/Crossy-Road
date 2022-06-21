@@ -1,4 +1,4 @@
-public Player p = new Player ();
+public Player p = new Player();
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
 public Traffic c= new Traffic();
@@ -9,18 +9,7 @@ public void setup(){
   size (400,900);
 }
 public void draw(){
-  s.drawObstacles();
-  s.moveObstacles();
-  p.drawPlayer();
-
-  //drawing traffic obstacles
- 
-  //Player Movement and Player Creation
-  p.drawPlayer();
-  p.movePlayer();
-  p.changeDirection(keyCode);
  //drawing traffic obstacles
-
   background (0,0,0);
   a.drawObstacles();
   a.moveObstacles();
