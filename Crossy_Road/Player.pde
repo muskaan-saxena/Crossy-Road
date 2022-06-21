@@ -7,8 +7,6 @@ public class Player {
     x = 200;
     y = 1000;
 
-    x = 0;
-    y = 200;
 }
 
   public void changeDirection( int keyNum){
@@ -17,8 +15,7 @@ public class Player {
 
   }
   public void drawPlayer(){
-    background (8, 252, 34);
-    fill(0);
+    fill(255,0,0);
     ellipse(x,y,30,30);
   }
   public void movePlayer(){
