@@ -10,15 +10,7 @@ public class Player {
     x = 0;
     y = 200;
 }
-public void drawPlayer(){
-  fill(255,0,0);
-  ellipse(200,800,20,20);
-}
-public void movePlayer(){
-  if( currentDirection == "UP"){
-    y=y-1; 
-   score = score +1;}
-  }
+
   public void changeDirection( int keyNum){
       if (keyNum == 38){
         currentDirection = "UP";}
@@ -27,7 +19,6 @@ public void movePlayer(){
   public void drawPlayer(){
     background (8, 252, 34);
     fill(0);
-    
     ellipse(x,y,30,30);
   }
   public void movePlayer(){

@@ -1,3 +1,7 @@
+public class Score{
+  
+}
+
 //public class score{
 //public void movePlayer(){
 //  if( currentDirection == "UP"){
