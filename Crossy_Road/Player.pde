@@ -8,7 +8,7 @@ public class Player {
     y = 200;
 }
 public void drawPlayer(){
-  fill(255,255,255);
+  fill(255,255,255);  
   ellipse(200,1,000,15);
 }
 public void movePlayer(){
