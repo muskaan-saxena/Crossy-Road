@@ -10,6 +10,7 @@ public void setup(){
 }
 public void draw(){
   //drawing traffic obstacles
+  background (0,0,0);
   a.drawObstacles();
   a.moveObstacles();
   b.drawObstacles();

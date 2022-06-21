@@ -15,7 +15,7 @@ public void drawObstacles(){
 
 public void moveObstacles(){
   if (x<=0){
-    x=400;
+    x=400+x;
   }else{
  x = x - 1;
     }
