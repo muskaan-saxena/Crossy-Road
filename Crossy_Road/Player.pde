@@ -8,8 +8,8 @@ public class Player {
     y = 200;
 }
 public void drawPlayer(){
-  fill(255,255,255);
-  ellipse(200,1,000,50);
+  fill(255,0,0);
+  ellipse(200,800,20,20);
 }
 public void movePlayer(){
   if( currentDirection == "UP"){

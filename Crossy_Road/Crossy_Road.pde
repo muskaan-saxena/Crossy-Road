@@ -1,4 +1,4 @@
-public Player p= new Player ();
+public Player p = new Player ();
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
 public Traffic c= new Traffic();
