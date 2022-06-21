@@ -22,5 +22,10 @@ public class Player {
       y=y-2; 
      score = score +1;
    }
+   public void Collision(){
+     if(dist(x,y)(player) & x,y of obstacle) 
+     new screen 
+     else continue 
+   }
   
  }
