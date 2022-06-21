@@ -10,11 +10,14 @@ public void setup(){
 }
 public void draw(){
 <<<<<<< HEAD
+<<<<<<< HEAD
   s.drawObstacles();
   s.moveObstacles();
   
  p.drawPlayer();
 =======
+=======
+>>>>>>> 44044f53c304b06e8785cc12390f7ad53c54e064
   //drawing traffic obstacles
   background (0,0,0);
   a.drawObstacles();
