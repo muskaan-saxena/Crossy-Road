@@ -1,13 +1,9 @@
-public class Score{
+public class Score {
   
+  public void ScorePoints(){
+int points = 0 ;
+text("Points",10, 30);
+textSize(32);
+fill(0, 50, 255);
+  }
 }
-
-//public class score{
-//public void movePlayer(){
-//  if( currentDirection == "UP"){
-//    y=y-1; 
-//   score = score +1;
-// text()highscore;
-//  }
-// }
-//}
