@@ -1,4 +1,4 @@
-Obstacle o = new Obstacle();
+public Obstacle o = new Obstacle();
 public Player p;
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();

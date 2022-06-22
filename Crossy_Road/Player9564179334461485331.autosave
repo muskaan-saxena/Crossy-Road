@@ -2,11 +2,11 @@ public class Player{
 
   int y; 
   int x;
-
-
- public int x1;
   PImage bird;
-   public int y1;
+
+ public int x;
+  PImage bird;
+   public int y;
 
 
   String currentDirection;
@@ -29,8 +29,8 @@ public class Player{
    }
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
-     dist(x,y,i.getX(),i.getY()<= 5);} 
-      noLoop();
+     dist(x,y,i.getX(),i.getY());} 
+      
    }
  }
  
