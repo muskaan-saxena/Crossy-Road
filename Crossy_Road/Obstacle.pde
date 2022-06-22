@@ -7,6 +7,5 @@ public class Obstacle{
 
  public void addCar (Traffic c){
      allCars.add(c);
-    
-
+ }
 }
