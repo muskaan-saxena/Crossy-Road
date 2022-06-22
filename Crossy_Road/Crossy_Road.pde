@@ -4,15 +4,15 @@ public Traffic b= new Traffic();
 public Traffic c= new Traffic();
 public Traffic d= new Traffic();
 PImage duck;
-
 public EndGame z= new EndGame();
 
 public void setup(){
   background (8, 252, 34);
   size (400,900);
-  duck = loadImage("crossy_duck.png");
+  duck = loadImage("goose_crossy (2) (4).png");
   p = new Player(duck);
 }
+
 public void draw(){
  //drawing traffic obstacles
   background (0,0,0);
@@ -30,4 +30,5 @@ public void draw(){
 }
 
 void keyPressed(){
- p.movePlayer(); 
+ p.movePlayer();
+}
