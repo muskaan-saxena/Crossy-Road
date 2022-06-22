@@ -2,6 +2,9 @@ public class Player{
   int x;
   PImage bird;
   int y;
+
+  public int x;
+  public int y;
   String currentDirection;
   int score;
   public Player(PImage b){

@@ -5,6 +5,8 @@ public Traffic c= new Traffic();
 public Traffic d= new Traffic();
 PImage duck;
 
+public EndGame z= new EndGame();
+
 public void setup(){
   background (8, 252, 34);
   size (400,900);
@@ -24,6 +26,7 @@ public void draw(){
   d.moveObstacles();
   //Player Movement and Player Creation
   p.drawPlayer();
+  z.gameEnds();
 }
 
 void keyPressed(){
