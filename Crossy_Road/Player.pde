@@ -1,7 +1,16 @@
 public class Player{
+<<<<<<< HEAD
   int y; 
   int x;
   PImage bird;
+=======
+ public int x;
+  PImage bird;
+   public int y;
+
+  public int x;
+  public int y;
+>>>>>>> 026202eb0d09ca374eca7987f13317c3443af1eb
   String currentDirection;
   int score;
   
@@ -21,7 +30,7 @@ public class Player{
      score = score +1;
    }
   /* public void Collision(){
-     if(dist(x,y)(player) & x,y of obstacle) 
+     for(dist(x,y(player) & x,y of obstacle) 
      new screen 
      else continue 
    }*/
