@@ -29,9 +29,9 @@ public class Player{
       y=y-50; 
      score = score +1;
    }
-  /* public void Collision(){
-     for( =i:allCars){
-     dist(p.x,p.y,o.getX,ogetY)} 
+  public void Collision(ArrayList<Traffic> allCars){
+     for(Traffic i:allCars){
+     dist(x,y,i.getX(),i.getY());} 
       
    }*/
  }
