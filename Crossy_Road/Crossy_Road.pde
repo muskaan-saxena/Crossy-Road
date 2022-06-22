@@ -1,3 +1,4 @@
+Obstacle o = new Obstacle();
 public Player p;
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
@@ -11,6 +12,10 @@ public void setup(){
   size (400,900);
   duck = loadImage("goose_crossy (2) (4).png");
   p = new Player(duck);
+  o.addCar(a);
+  o.addCar(b);
+  o.addCar(c);
+  o.addCar(d);
 }
 
 public void draw(){

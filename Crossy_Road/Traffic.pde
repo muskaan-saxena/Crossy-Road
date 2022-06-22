@@ -7,6 +7,13 @@ public Traffic(){
    x= int (random (0,400));
 }
 
+public int getX(){
+  return x;
+}
+
+public int getY(){
+  return y;
+}
 
 public void drawObstacles(){
   fill (194, 8, 252);
