@@ -1,4 +1,4 @@
-public class Player {
+public class Player{
   int x;
   int y;
   String currentDirection;
@@ -13,13 +13,12 @@ public class Player {
     ellipse(x,y,30,30);
   }
   public void movePlayer(){
-      y=y-3; 
+      y=y-50; 
      score = score +1;
    }
-   public void Collision(){
+  /* public void Collision(){
      if(dist(x,y)(player) & x,y of obstacle) 
      new screen 
      else continue 
-   }
-  
+   }*/
  }
