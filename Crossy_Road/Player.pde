@@ -1,17 +1,19 @@
 public class Player{
   int x;
+  PImage bird;
   int y;
   String currentDirection;
   int score;
-  public Player(){
+  public Player(PImage b){
     x = 200;
     y = 889;
+    bird = b;
   }
 
  public void drawPlayer(){
     fill(255,0,0);
-    ellipse(x,y,30,30);
-  }
+    image(bird,10,10);
+    }
   public void movePlayer(){
       y=y-50; 
      score = score +1;

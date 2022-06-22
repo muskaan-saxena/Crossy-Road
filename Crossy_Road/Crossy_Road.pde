@@ -1,12 +1,15 @@
-public Player p = new Player();
+public Player p;
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
 public Traffic c= new Traffic();
 public Traffic d= new Traffic();
+PImage duck;
 
 public void setup(){
   background (8, 252, 34);
   size (400,900);
+  duck = loadImage("crossy_duck.png");
+  p = new Player(duck);
 }
 public void draw(){
  //drawing traffic obstacles
@@ -25,4 +28,3 @@ public void draw(){
 
 void keyPressed(){
  p.movePlayer(); 
-}
