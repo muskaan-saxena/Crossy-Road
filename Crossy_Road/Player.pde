@@ -31,8 +31,8 @@ public class Player{
    }
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
-     dist(x,y,i.getX(),i.getY());} 
-      
-   }*/
+     dist(x,y,i.getX(),i.getY()<= 5);} 
+      noLoop();
+   }
  }
  
