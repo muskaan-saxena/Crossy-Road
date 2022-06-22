@@ -22,8 +22,8 @@ public class Player{
      score = score +1;
    }
   /* public void Collision(){
-     for(dist(x,y(player) & x,y of obstacle) 
-     new screen 
-     else continue 
+     for( =i:allCars){
+     dist(p.x,p.y,o.getX,ogetY)} 
+      
    }*/
  }
