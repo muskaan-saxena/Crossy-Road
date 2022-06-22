@@ -5,22 +5,22 @@ public class Player{
 
 
  public int x1;
-  PImage bird;
+  //PImage bird;
    public int y1;
 
 
   String currentDirection;
   int score;
   
-  public Player(PImage b){
+ /* public Player(PImage b){
     x = 200;
     y = 880;
     bird = b;
-  }
+  }*/
 
  public void drawPlayer(){
     fill(255,0,0);
-    image(bird,x,y);
+   // image(bird,x,y);
   }
   
   public void movePlayer(){
@@ -29,7 +29,7 @@ public class Player{
    }
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
-     (dist(x,y,i.getX(),i.getY())< 5); 
+     if(dist(x,y,i.getX(),i.getY())< 5); 
       noLoop();
      }
    }
