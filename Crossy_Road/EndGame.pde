@@ -1,6 +1,6 @@
 public class EndGame{
   
-  public void endGame(){
+  public void endTheGame(){
   }
   
   public void gameEnds(){
