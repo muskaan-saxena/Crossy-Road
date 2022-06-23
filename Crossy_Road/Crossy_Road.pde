@@ -22,6 +22,7 @@ public void setup(){
 public void draw(){
  //drawing traffic obstacles
   background (0,0,0);
+  p.Collision(o.getTrafficArray());
   a.drawObstacles();
   a.moveObstacles();
   b.drawObstacles();
@@ -34,6 +35,7 @@ public void draw(){
   p.drawPlayer();
   z.gameEnds();
   s.ScorePoints();
+  
 }
 
 void keyPressed(){

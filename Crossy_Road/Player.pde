@@ -29,9 +29,15 @@ public class Player{
    }
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
-     if(dist(x,y,i.getX(),i.getY())< 5); 
-      noLoop();
+       
+     if(dist(x,y,i.getX(),i.getY())<10){
+       println("COLLISION");
+     background(0,0,0);
+     text("Game Over", 200, 500);
+   }
+    // noLoop();
      }
+     
    }
  }
  
