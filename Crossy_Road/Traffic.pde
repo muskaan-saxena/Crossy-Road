@@ -3,7 +3,7 @@ public class Traffic{
   int y;
   
 public Traffic(){
-   y= int (random (0,900));
+   y= int (random (0,800));
    x= int (random (0,400));
 }
 
@@ -24,7 +24,7 @@ public void moveObstacles(){
   if (x<=0){
     x=400+x;
   }else{
- x = x - 1;
+ x = x - 15;
     }
   }
 }
