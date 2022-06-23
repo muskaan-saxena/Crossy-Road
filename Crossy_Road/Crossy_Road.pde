@@ -20,7 +20,7 @@ public void setup(){
   o.addCar(d);
  
 }
-
+//drawing of cars and bird and everything else
 public void draw(){
  //drawing traffic obstacles
   background (0,0,0);
