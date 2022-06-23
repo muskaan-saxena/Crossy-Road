@@ -3,7 +3,7 @@ public class Traffic{
   int y;
   
 public Traffic(){
-   y= int (random (0,900));
+   y= int (random (0,800));
    x= int (random (0,400));
 }
 
