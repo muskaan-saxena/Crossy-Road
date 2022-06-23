@@ -1,5 +1,5 @@
 public Obstacle o = new Obstacle();
-public Player p;
+public Player p= new Player ();
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
 public Traffic c= new Traffic();
@@ -8,7 +8,7 @@ PImage duck;
 public EndGame z= new EndGame();
 
 public void setup(){
-  background (8, 252, 34);
+  background (0,0,0);
   size (400,900);
  /* duck = loadImage("goose_crossy (2) (4).png");
   p = new Player(duck);*/
