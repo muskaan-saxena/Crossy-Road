@@ -18,13 +18,15 @@ public void setup(){
   o.addCar(b);
   o.addCar(c);
   o.addCar(d);
+  delay (3);
+  menu.menuDisplay();
+
  
 }
 //drawing of cars and bird and everything else
 public void draw(){
  //drawing traffic obstacles
   background (0,0,0);
-  menu.menuDisplay();
   p.Collision(o.getTrafficArray());
   a.drawObstacles();
   a.moveObstacles();
