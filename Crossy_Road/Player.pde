@@ -32,8 +32,7 @@ public class Player{
        
      if(dist(x,y,i.getX(),i.getY())<10){
        println("COLLISION");
-     background(0,0,0);
-     text("Game Over", 200, 500);
+     text("Game Over", 120, 500);
 
      noLoop();
 
