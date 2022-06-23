@@ -30,6 +30,11 @@ public class Player{
   public void movePlayer(){
       y=y-25; 
    }
+<<<<<<< HEAD
+   //collision that makes car hit my bird
+=======
+   //This is the method to check for collision of the duck and obstacles by checking the distance between them
+>>>>>>> 7a7e70f5ce2d0431b975de7b05587638f841f4dd
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
 
