@@ -1,5 +1,5 @@
 public Obstacle o = new Obstacle();
-
+public Score s= new Score();
 public Player p;
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
@@ -33,6 +33,7 @@ public void draw(){
   //Player Movement and Player Creation
   p.drawPlayer();
   z.gameEnds();
+  s.ScorePoints();
 }
 
 void keyPressed(){

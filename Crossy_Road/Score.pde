@@ -2,9 +2,9 @@ public class Score {
  
   public void ScorePoints(){
 int points ;
-points =p.y/10;
+points =(1000-p.y)/10;
+textSize(30);
+fill(255, 255, 255);
 text("Points:"+points,10, 30);
-textSize(32);
-fill(0, 50, 255);
   }
 }
