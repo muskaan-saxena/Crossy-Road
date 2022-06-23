@@ -22,7 +22,7 @@ public class Player{
     fill(255,0,0);
    image(bird,x,y);
   }
-  
+  int Width = 30;
   public void movePlayer(){
       y=y-25; 
      score = score +1;
@@ -30,7 +30,7 @@ public class Player{
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
        
-     if(dist(x,y,i.getX(),i.getY())<50){
+     if(dist(x,y,i.getX(),i.getY())<25 && dist( x + Width,y, i.getX()+Width,i.getY()) < 25){
        println("COLLISION");
      background(0,0,0);
      text("Game Over", 200, 500);
