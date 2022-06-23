@@ -23,8 +23,9 @@ public void drawObstacles(){
 public void moveObstacles(){
   if (x<=0){
     x=400+x;
+    y= int( random ( 0,850));
   }else{
- x = x - 10;
+ x = x - 7;
     }
   }
 }
