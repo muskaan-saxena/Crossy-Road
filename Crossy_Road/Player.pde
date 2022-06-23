@@ -31,7 +31,11 @@ public class Player{
       y=y-25; 
    }
 <<<<<<< HEAD
+<<<<<<< HEAD
    //collision that makes car hit my bird
+=======
+   //This is the method to check for collision of the duck and obstacles by checking the distance between them
+>>>>>>> 7a7e70f5ce2d0431b975de7b05587638f841f4dd
 =======
    //This is the method to check for collision of the duck and obstacles by checking the distance between them
 >>>>>>> 7a7e70f5ce2d0431b975de7b05587638f841f4dd
