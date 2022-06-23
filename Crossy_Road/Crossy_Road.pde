@@ -24,6 +24,7 @@ public void setup(){
 public void draw(){
  //drawing traffic obstacles
   background (0,0,0);
+  menu.menuDisplay();
   p.Collision(o.getTrafficArray());
   a.drawObstacles();
   a.moveObstacles();

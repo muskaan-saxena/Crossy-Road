@@ -1,9 +1,9 @@
 public class Menu{
-  
+  int temp=
   public void menuDisplay(){
-    fill(0, 0, 0);
-    textSize (50);
-    text("Click any key to begin", 200, 500);
-    
+    fill(255, 255, 255);
+    textSize (25);
+    text("Click any key to begin", 100, 500);
+    if (keyPressed)
   }
 }
