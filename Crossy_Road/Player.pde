@@ -34,6 +34,7 @@ public class Player{
        println("COLLISION");
      background(0,0,0);
      text("Game Over", 200, 500);
+     noLoop();
    }
     // noLoop();
      }
