@@ -22,10 +22,9 @@ public class Player{
     fill(255,0,0);
    image(bird,x,y);
   }
-  
+  //player moves by 25
   public void movePlayer(){
       y=y-25; 
-     score = score +1;
    }
   public void Collision(ArrayList<Traffic> allCars){
      for(Traffic i:allCars){
