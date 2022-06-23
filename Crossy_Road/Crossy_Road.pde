@@ -1,5 +1,6 @@
 public Obstacle o = new Obstacle();
-public Player p= new Player ();
+
+public Player p;
 public Traffic a= new Traffic();
 public Traffic b= new Traffic();
 public Traffic c= new Traffic();
@@ -10,8 +11,8 @@ public EndGame z= new EndGame();
 public void setup(){
   background (0,0,0);
   size (400,900);
- /* duck = loadImage("goose_crossy (2) (4).png");
-  p = new Player(duck);*/
+ duck = loadImage("goose_crossy (2) (4).png");
+  p = new Player(duck);
   o.addCar(a);
   o.addCar(b);
   o.addCar(c);

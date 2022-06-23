@@ -5,26 +5,26 @@ public class Player{
 
 
  public int x1;
-  //PImage bird;
+  PImage bird;
    public int y1;
 
 
   String currentDirection;
   int score;
   
- /* public Player(PImage b){
+  public Player(PImage b){
     x = 200;
     y = 880;
     bird = b;
-  }*/
+  }
 
  public void drawPlayer(){
     fill(255,0,0);
-   // image(bird,x,y);
+   image(bird,x,y);
   }
   
   public void movePlayer(){
-      y=y-50; 
+      y=y-25; 
      score = score +1;
    }
   public void Collision(ArrayList<Traffic> allCars){
