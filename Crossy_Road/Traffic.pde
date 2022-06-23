@@ -23,6 +23,7 @@ public void drawObstacles(){
 public void moveObstacles(){
   if (x<=0){
     x=400+x;
+    // This is to reassign the y value when the car hits the other side.
     y= int( random ( 0,850));
   }else{
  x = x - 7;
