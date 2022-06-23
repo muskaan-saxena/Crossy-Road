@@ -1,3 +1,4 @@
+public Menu menu= new Menu();
 public Obstacle o = new Obstacle();
 public Score s= new Score();
 public Player p;
@@ -17,6 +18,7 @@ public void setup(){
   o.addCar(b);
   o.addCar(c);
   o.addCar(d);
+ 
 }
 
 public void draw(){
