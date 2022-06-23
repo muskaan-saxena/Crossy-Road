@@ -24,7 +24,7 @@ public void moveObstacles(){
   if (x<=0){
     x=400+x;
   }else{
- x = x - 15;
+ x = x - 10;
     }
   }
 }
