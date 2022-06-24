@@ -1,3 +1,4 @@
+public Menu menu= new Menu();
 public Obstacle o = new Obstacle();
 public Score s= new Score();
 public Player p;
@@ -11,14 +12,18 @@ public EndGame z= new EndGame();
 public void setup(){
   background (0,0,0);
   size (400,900);
- duck = loadImage("goose_crossy (2) (4).png");
+ duck = loadImage("drippy_goose .png");
   p = new Player(duck);
   o.addCar(a);
   o.addCar(b);
   o.addCar(c);
   o.addCar(d);
-}
+  delay (3);
+  menu.menuDisplay();
 
+ 
+}
+//drawing of cars and bird and everything else
 public void draw(){
  //drawing traffic obstacles
   background (0,0,0);

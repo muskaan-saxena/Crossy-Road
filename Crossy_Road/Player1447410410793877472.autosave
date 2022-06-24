@@ -1,7 +1,7 @@
 public class Player{
 
   int y; 
-  int x;     
+  int x;
 
 
  public int x1;
@@ -30,6 +30,7 @@ public class Player{
   public void movePlayer(){
       y=y-25; 
    }
+
 
    //This is the method to check for collision of the duck and obstacles by checking the distance between them
 
