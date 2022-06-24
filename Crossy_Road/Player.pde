@@ -25,7 +25,7 @@ public class Player{
 
   int Width = 30;
 
-  //player moves by 25
+  //Player moves by 25
 
   public void movePlayer(){
       y=y-25; 
@@ -39,7 +39,7 @@ public class Player{
      if(dist(x,y,i.getX(),i.getY())<25 && dist( x + Width,y, i.getX()+Width,i.getY()) < 25){
 
        println("COLLISION");
-     text("Game Over", 120, 500);
+     text("Game Over", 200, 500);
 
      noLoop();
 
