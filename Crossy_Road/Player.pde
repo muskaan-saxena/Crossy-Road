@@ -1,7 +1,7 @@
 public class Player{
 
   int y; 
-  int x;
+  int x;     
 
 
  public int x1;
