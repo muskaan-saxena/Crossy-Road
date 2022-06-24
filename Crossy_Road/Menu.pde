@@ -1,21 +1,25 @@
 public class Menu{
 
-  int gameScreen;
+  /**int gameScreen;
   public void menuDisplay(){
   background(0);
   textAlign(CENTER);
-  text("Click to start", height/2, width/2);
+  text("Click to start", height/2, width/2);*/
 
-  
-  /* String temp= "Click any key to begin";
-  public void menuDisplay(){
+  boolean Unknown = false;
+ public void menuDisplay(){
+  while (Unknown == false){
+   String temp= "Click any key to begin";
     fill(255, 255, 255);
     textSize (25);
-    text(temp, 100, 500);*/
-
+    text(temp, 100, 500);
+  }if (keyPressed){
+    Unknown = true;
+  }
+ }
 
    }
-   public void mousePressed() {
+  /** public void mousePressed() {
   // if we are on the initial screen when clicked, start the game
   if (gameScreen==0) {
     startGame();
@@ -26,4 +30,4 @@ public class Menu{
 void startGame() {
   gameScreen=1;
 }
-}
+}*/
