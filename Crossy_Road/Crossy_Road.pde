@@ -37,7 +37,7 @@ public void draw(){
   s.ScorePoints();
   
 }
-
+  
 void keyPressed(){
  p.movePlayer();
 }
