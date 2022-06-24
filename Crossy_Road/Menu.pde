@@ -1,9 +1,20 @@
 public class Menu{
-  String temp= "Click any key to begin";
+  int gameScreen;
   public void menuDisplay(){
-    fill(255, 255, 255);
-    textSize (25);
-    text(temp, 100, 500);
+  background(0);
+  textAlign(CENTER);
+  text("Click to start", height/2, width/2);
 
    }
+   public void mousePressed() {
+  // if we are on the initial screen when clicked, start the game
+  if (gameScreen==0) {
+    startGame();
+  }
+}
+
+
+void startGame() {
+  gameScreen=1;
+}
 }
