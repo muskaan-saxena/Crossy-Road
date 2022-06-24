@@ -12,7 +12,7 @@ public EndGame z= new EndGame();
 public void setup(){
   background (0,0,0);
   size (400,900);
- duck = loadImage("goose_crossy (2) (4).png");
+ duck = loadImage("drippy_goose .png");
   p = new Player(duck);
   o.addCar(a);
   o.addCar(b);
