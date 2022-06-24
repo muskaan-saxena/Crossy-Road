@@ -39,7 +39,9 @@ public class Player{
      if(dist(x,y,i.getX(),i.getY())<25 && dist( x + Width,y, i.getX()+Width,i.getY()) < 25){
 
        println("COLLISION");
-     text("Game Over", 200, 500);
+
+     text("Game Over", 120, 500);
+
 
      noLoop();
 

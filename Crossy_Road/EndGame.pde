@@ -9,7 +9,7 @@ public class EndGame{
       noLoop();
       fill (255, 255, 255);
       textSize (80);
-      text("Success!",200,500);
+      text("Success!",70,500);
     }
   }
 }

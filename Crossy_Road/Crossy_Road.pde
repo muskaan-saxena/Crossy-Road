@@ -8,6 +8,7 @@ public Traffic c= new Traffic();
 public Traffic d= new Traffic();
 PImage duck;
 public EndGame z= new EndGame();
+boolean hasClicked;
 
 public void setup(){
   background (0,0,0);
@@ -19,30 +20,34 @@ public void setup(){
   o.addCar(c);
   o.addCar(d);
   delay (3);
-  menu.menuDisplay();
-
- 
+  hasClicked = false;
 }
+
 //drawing of cars and bird and everything else
 public void draw(){
  //drawing traffic obstacles
-  background (0,0,0);
-  p.Collision(o.getTrafficArray());
-  a.drawObstacles();
-  a.moveObstacles();
-  b.drawObstacles();
-  b.moveObstacles();
-  c.drawObstacles();
-  c.moveObstacles();
-  d.drawObstacles();
-  d.moveObstacles();
-  //Player Movement and Player Creation
-  p.drawPlayer();
-  z.gameEnds();
-  s.ScorePoints();
+ if(hasClicked){
+     background (0,0,0);
+    p.Collision(o.getTrafficArray());
+    a.drawObstacles();
+    a.moveObstacles();
+    b.drawObstacles();
+    b.moveObstacles();
+    c.drawObstacles();
+    c.moveObstacles();
+    d.drawObstacles();
+    d.moveObstacles();
+    //Player Movement and Player Creation
+    p.drawPlayer();
+    z.gameEnds();
+    s.ScorePoints();
+ }else{
+   menu.menuDisplay();
+ }
   
 }
   
 void keyPressed(){
+  hasClicked = true;
  p.movePlayer();
 }
