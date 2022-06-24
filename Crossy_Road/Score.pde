@@ -7,7 +7,7 @@ public class Score {
   points =(1000-p.y)/10;
   textSize(30);
   fill(255, 255, 255);
-  text("Points:"+points,60,30 );
+  text("Points:"+points,25,30 );
 
   }
 }
